@@ -1,7 +1,10 @@
-export default function App() {
+import AnimatedHamburger from "./components/AnimatedHamburger"
+
+ function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+   <div>
+    <AnimatedHamburger />
+   </div>
   )
 }
+export default App
